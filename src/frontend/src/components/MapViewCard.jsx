@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 
-const InteractiveMap = dynamic(() => import("./InteractiveMap"), { ssr: false });
+const InteractiveMap = dynamic(() => import("./Map"), { ssr: false });
 
 export default function MapViewCard({ center, routes, selectedRoute, onLocationSelect }) {
   return (
