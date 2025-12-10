@@ -606,7 +606,8 @@ socket.on('new_hazard', (data) => {
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+<img src="![Home Page](screenshots/home.png)"  width="60%" height="30%">
+
 *Interactive map showing user location with safety navigation*
 
 ### Route Planning
